@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "module": "commonjs",
+    "target": "ES2017",
+    "declaration": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "#*": ["./source/*"],
+      "*": ["./types/*"]
+    },
+    "lib": ["ES2020"]
+  },
+  "include": ["./source/**/*.json", "./source/**/*.ts", "gatsby-node.js"],
+  "exclude": ["node_modules"]
+}
